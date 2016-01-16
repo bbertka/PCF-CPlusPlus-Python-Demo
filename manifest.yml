@@ -1,0 +1,5 @@
+applications:
+- name: cplusplus
+  buildpack: https://github.com/cloudfoundry/buildpack-python.git
+  memory: 256M
+  stack: cflinuxfs2
