@@ -19,4 +19,17 @@ main.py		- Python Wrapper
 /src		- C++ source code for Hello World
 </pre>
 
+<pre>
+usmfbertkbm1:pcfcplus bbertka$ cf logs cplusplus
+Connected, tailing logs for app cplusplus in org TELCO / space ben as...
+
+2016-01-15T16:26:47.32-0800 [APP/0]      OUT hello cplusplus
+2016-01-15T16:26:52.34-0800 [APP/0]      OUT hello cplusplus
+2016-01-15T16:26:57.35-0800 [APP/0]      OUT hello cplusplus
+2016-01-15T16:27:02.36-0800 [APP/0]      OUT hello cplusplus
+2016-01-15T16:27:03.25-0800 [HEALTH/0]   OUT healthcheck passed
+2016-01-15T16:27:03.25-0800 [HEALTH/0]   OUT Exit status 0
+2016-01-15T16:27:07.37-0800 [APP/0]      OUT hello cplusplus
+</pre>
+
 Uses python-cfworker library for opening an HTTP server to respond to health requests
