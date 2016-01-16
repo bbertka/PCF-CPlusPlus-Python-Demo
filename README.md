@@ -20,7 +20,7 @@ main.py		- Python Wrapper
 </pre>
 
 <pre>
-usmfbertkbm1:pcfcplus bbertka$ cf logs cplusplus
+cf logs cplusplus
 Connected, tailing logs for app cplusplus in org TELCO / space ben as...
 
 2016-01-15T16:26:47.32-0800 [APP/0]      OUT hello cplusplus
