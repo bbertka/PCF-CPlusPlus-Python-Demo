@@ -1,6 +1,15 @@
 # PCF-CPlusPlus-Python-Demo
 
-Demo app demonstrates executing a C++ binary from within a Python App.
+Demo app demonstrates executing a C++ binary from within a Python App. Note there is no UI, this is a long term data processing example.
+
+To run:
+
+cf push
+
+To view output:
+
+cf logs <appname>
+
 
 Files:
 
